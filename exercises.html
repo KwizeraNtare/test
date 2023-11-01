@@ -8,6 +8,9 @@ border: none;
 cursor: pointer;
 margin-right: 20px;
 }
+.request-button:hover{
+  opacity: 0.8;
+}
 .Add-button{
   background-color: rgb(246, 215, 63);
   color: rgb(0, 0, 0);
@@ -17,6 +20,14 @@ margin-right: 20px;
   border: none;
   cursor: pointer;
   margin-right: 20px;
+  transition: background-color 0.15s;
+  
+}
+.Add-button:hover{
+background-color:  rgb(232, 212, 98);
+}
+.Add-button:active{
+  opacity: 0.5;
 }
 .sign-button{
   background-color: rgb(46,164,79);
@@ -27,6 +38,9 @@ margin-right: 20px;
   border: none;
   cursor: pointer;
   margin-right: 20px;
+}
+.sign-button:hover{
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
 }
 .Get-button{
   background-color: rgb(121,82,179);
@@ -50,6 +64,10 @@ margin-right: 20px;
   cursor: pointer;
   border-width: 1px;
 }
+.download-button:hover{
+border-color: rgb(50, 50, 50);
+color: rgb(186, 184, 184);
+}
 .Hire-button{
 background-color: rgb(10, 102, 194);
 color: white;
@@ -60,6 +78,10 @@ border: none;
 margin-left: 20px;
 font-weight: bold;
 cursor: pointer;
+}
+.save-button:hover{
+background-color: rgb(197, 197, 235);
+color: rgb(116, 116, 248);
 }
 .save-button{
   border-color: rgb(129, 129, 255);
@@ -79,16 +101,22 @@ cursor: pointer;
     text-decoration: underline;
     margin-left: 108px;
   }
+  .Amazon-text:hover{
+    color: rgb(252, 136, 115);
+  }
+  .Shopping-button:active{
+opacity: 0.5;
+  }
   .Shopping-button{
     background-color: rgb(255, 164, 28);
     color: black;
     border-radius: 20px;
-  height: 35px;
-  width: 160px;
-  border: none;
-  cursor: pointer;
-  margin-right: 20px;
-  font-weight: bold;
+    height: 35px;
+    width: 160px;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+    font-weight: bold;
 }
   .spec-text{
     color: black;
@@ -130,3 +158,4 @@ cursor: pointer;
   Add to Cart
 </button>
 <button class="Shopping-button">Buy now</button>
+<h1> EXERCISE</h1>
