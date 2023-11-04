@@ -1,0 +1,35 @@
+
+    input {
+      border-width: 1px;
+      border-style: solid;
+      border-color: rgb(200, 200, 200);
+      padding-top: 12px;
+      padding-bottom: 12px;
+      padding-left: 16px;
+      padding-right: 16px;
+      font-size: 16px;
+      border-radius: 8px;
+      margin-bottom: 12px;
+    }
+    .FirstName1{
+      width: 148px;
+    }
+    .FirstName2{
+      width: 148px;
+    }
+          .address{
+            display: block;
+            width: 300px;
+          }
+          .click{
+            background-color: rgb(47, 127, 231);
+            color: white;
+            border: none;
+            width: 300px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            border-radius: 8px;
+            margin-left: 15px;
+            font-weight: bold;
+          }
+        
