@@ -1,0 +1,31 @@
+.card{
+  display: inline-block;
+  object-fit: contain;
+  margin-right: 10px;
+  
+  }
+  .profile-picture{
+    width: 150px;
+    display: inline-block;
+    margin-bottom: 0;
+  }
+  .user{
+    font-family: Arial;
+    font-weight: bold;
+    display: block;
+  }
+  .tweet-button{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .suggestion{
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+    font-family: Arial;
+    
+  }
